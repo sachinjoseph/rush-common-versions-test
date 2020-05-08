@@ -1,6 +1,6 @@
 dependencies:
   '@rush-temp/my-app': 'file:projects/my-app.tgz'
-  jest: 25.5.4
+  jest: 25.1.0
   jest-cli: 25.1.0
 lockfileVersion: 5
 packages:
@@ -1966,28 +1966,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-p+aOfczzzKdo3AsLJlhs8J5EW6ffVidfSZZxXedJ0mHPBOln1DccqFmGCoO8JWd4xRycfmwy1eoQkMsF8oekPg==
-  /jest-cli/25.5.4:
-    dependencies:
-      '@jest/core': 25.5.4
-      '@jest/test-result': 25.5.0
-      '@jest/types': 25.5.0
-      chalk: 3.0.0
-      exit: 0.1.2
-      graceful-fs: 4.2.4
-      import-local: 3.0.2
-      is-ci: 2.0.0
-      jest-config: 25.5.4
-      jest-util: 25.5.0
-      jest-validate: 25.5.0
-      prompts: 2.3.2
-      realpath-native: 2.0.0
-      yargs: 15.3.1
-    dev: false
-    engines:
-      node: '>= 8.3'
-    hasBin: true
-    resolution:
-      integrity: sha512-rG8uJkIiOUpnREh1768/N3n27Cm+xPFkSNFO91tgg+8o2rXeVLStz+vkXkGr4UtzH6t1SNbjwoiswd7p4AhHTw==
   /jest-config/25.5.4:
     dependencies:
       '@babel/core': 7.9.6
@@ -2349,17 +2327,17 @@ packages:
       node: '>= 8.3'
     resolution:
       integrity: sha512-/dsSmUkIy5EBGfv/IjjqmFxrNAUpBERfGs1oHROyD7yxjG/w+t0GOJDX8O1k32ySmd7+a5IhnJU2qQFcJ4n1vw==
-  /jest/25.5.4:
+  /jest/25.1.0:
     dependencies:
       '@jest/core': 25.5.4
       import-local: 3.0.2
-      jest-cli: 25.5.4
+      jest-cli: 25.1.0
     dev: false
     engines:
       node: '>= 8.3'
     hasBin: true
     resolution:
-      integrity: sha512-hHFJROBTqZahnO+X+PMtT6G2/ztqAZJveGqz//FnWWHurizkD05PQGzRZOhF3XP6z7SJmL+5tCfW8qV06JypwQ==
+      integrity: sha512-FV6jEruneBhokkt9MQk0WUFoNTwnF76CLXtwNMfsc0um0TlB/LG2yxUd0KqaFjEJ9laQmVWQWS0sG/t2GsuI0w==
   /js-tokens/4.0.0:
     dev: false
     resolution:
@@ -3906,16 +3884,16 @@ packages:
       integrity: sha512-92O1HWEjw27sBfgmXiixJWT5hRBp2eobqXicLtPBIDBhYB+1HpwZlXmbW2luivBJHBzki+7VyCLRtAkScbTBQA==
   'file:projects/my-app.tgz':
     dependencies:
-      jest: 25.5.4
+      jest: 25.1.0
       jest-cli: 25.1.0
     dev: false
     name: '@rush-temp/my-app'
     resolution:
-      integrity: sha512-1TXu8sK4GF0BmR6H6tkoewc0T1B1XKk7bgh0p0bNxBBQBOKhuIiEGimpQEAHgkuj7x6Z4iykrSYe1pChjlno7A==
+      integrity: sha512-SCPBw4iI3igb0G2bpa2K7jlIBrGjgWRGO2BPdgpNMsCZDXF/hqARalzHF2tEA4dMknsUcWbim4lvNHUan0x4Xw==
       tarball: 'file:projects/my-app.tgz'
     version: 0.0.0
 registry: ''
 specifiers:
   '@rush-temp/my-app': 'file:./projects/my-app.tgz'
-  jest: ^25.4.0
+  jest: 25.1.0
   jest-cli: 25.1.0
