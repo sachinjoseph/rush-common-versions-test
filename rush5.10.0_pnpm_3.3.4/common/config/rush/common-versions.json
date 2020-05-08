@@ -19,6 +19,7 @@
    * will recalculate all version selections.
    */
   "preferredVersions": {
+    "jest": "25.1.0",
     "jest-cli": "25.1.0"
   },
 
